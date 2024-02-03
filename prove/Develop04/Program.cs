@@ -6,8 +6,8 @@ class Program
     int choice;
     static void Main(string[] args)
     {
-      String userInput = "";
-          while (menuUserinput != 4);
+   string menuUserinput="";
+          while (menuUserinput != 4)
            {
         Console.WriteLine(@"what is your choose between 1-5);
         .......1.Breathing Activity
@@ -27,10 +27,29 @@ class Program
 
           if (userInput == "1") {
 
+            BreathingActivity breathingactivity = new BreathingActivity();
+            breathingactivity.start();
 
+
+        }
+
+        else if (userInput =="2"){
+
+            ListingActivity Listingactivity = new ListingActivity();
+            ListingActivity.start();
+        }
+
+        else if  (userInput =="3") {
           
+            ReflectingActivity reflectingActivity = new ReflectingActivity();
+            ReflectingActivity.start();
+        }
 
-          }
+        else{
+          Console.WriteLine(" choose between 1 -3");
+        }
+
+        }
            }
     }
   
