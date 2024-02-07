@@ -49,16 +49,6 @@ Console.WriteLine(s);
   }
 }
 
-Console.WriteLine("breath in ");
-
-  for (int i =5 ;i> 0;i--){
- Console.Write(5);
- Thread.Sleep(1000);
- Console.WriteLine(" Now breath out ");
- }
-
-
- Console.WriteLine("Done");
  
     }
 

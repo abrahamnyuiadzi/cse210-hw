@@ -27,7 +27,7 @@ public class ListingActivity{
     {
 
  Console.Write(" how long in second do you like for your session ? : ");
- int usercount = Console.ReadLine();
+ string  usercount = Console.ReadLine();
 
  //for (int i =5 ;i> 0;i--){
 // Console.Write(5);
@@ -65,12 +65,7 @@ Console.WriteLine(s);
 }
 
 ;
-
-  for (int i =5 ;i> 0;i--){
- Console.Write(5);
- Thread.Sleep(1000);
- 
- }
+Console.WriteLine("breath in");
 
 
  Console.WriteLine("Done");
@@ -79,17 +74,7 @@ Console.WriteLine(s);
 
 
 
-    public string GetListFromUser (){
-
-      List<String> words =new List<String>();
-
-      words.Add(word);
-
-      Console.WriteLine(words.Count);
-
-
-
-    }
+    
 
 
 }
