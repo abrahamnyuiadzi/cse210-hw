@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+       
+         System.Console.WriteLine("please enter to continue or quit  to finish  ");
+       
+
+
+        
     }
 }
