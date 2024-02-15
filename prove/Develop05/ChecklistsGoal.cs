@@ -1,16 +1,12 @@
-class CheckListsGoal{
+
+using System;
+
+public class CheckListsGoal{
+ private string _amountcompleted;
+    private int _target;
+    private int _bonus;
 
     
-   string filename = "myFile.txt";
-string[] lines = System.IO.File.ReadAllLines(filename);
-
-foreach (string line in lines)
-{
-    string[] parts = line.Split(",");
-
-    string firstName = parts[0];
-    string lastName = parts[1];
-
-
-} 
 }
+
+
